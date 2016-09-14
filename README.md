@@ -8,6 +8,8 @@ Essentially:
 
 *Merged Ranger and Knight
 
++Knight and Ranger = Hunter
+
 +Added a lot to most jobs.
 
 -Wood removed from adventurer
@@ -25,3 +27,6 @@ Essentially:
 +Wizard has a lot of enchants added
 
 +Added more blocks to worker
+
+
+/Gaaple values editted.
