@@ -513,8 +513,8 @@ Jobs:
         income: 2.0
         experience: 2.0
   Hunter:
-    fullname: Knight
-    shortname: K
+    fullname: Hunter
+    shortname: H
     description: Take up your arms and battle the mobs!
     ChatColour: RED
     chat-display: full
