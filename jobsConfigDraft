@@ -420,8 +420,8 @@ Jobs:
         income: 2.5
         experience: 2.5
       GOLDEN_APPLE:
-        income: 8.0
-        experience: 10.0
+        income: 10.5
+        experience: 11.5
       MELON_BLOCK:
         income: 2.0
         experience: 5.0
@@ -512,7 +512,7 @@ Jobs:
       COOKED_FISH:
         income: 2.0
         experience: 2.0
-  Knight:
+  Hunter:
     fullname: Knight
     shortname: K
     description: Take up your arms and battle the mobs!
@@ -571,9 +571,6 @@ Jobs:
       Guardian:
         income: 10.0
         experience: 6.0
-      SkeletonWither:
-        income: 3.0
-        experience: 3.0
       Witch:
         income: 6.0
         experience: 6.0
