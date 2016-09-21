@@ -5,113 +5,10 @@
 # For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
 
 Jobs:
-  Lumberjack:
-    fullname: Lumberjack
-    shortname: L
-    description: Chop to survive!
-    ChatColour: DARK_RED
-    chat-display: full
-    max-level: 75
-    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
-    income-progression-equation: baseincome*((1.05)^(joblevel-1))
-    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
-    Break:
-      17-0:
-        income: 2.5
-        experience: 2.5
-      17-1:
-        income: 2.0
-        experience: 2.0
-      17-2:
-        income: 2.5
-        experience: 2.5
-      17-3:
-        income: 2.5
-        experience: 2.5
-      162-0:
-        income: 2.5
-        experience: 2.5
-      162-1:
-        income: 2.5
-        experience: 2.5
-    Place:
-      SAPLING:
-        income: 0.5
-        experience: 0.5
-    Craft:
-      5:
-        income: 0.5
-        experience: 0.5
-      126:
-        income: 0.25
-        experience: 0.25
-      65:
-        income: 0.25
-        experience: 0.25
-      96:
-        income: 0.5
-        experience: 0.5
-      53:
-        income: 0.5
-        experience: 0.5
-      134:
-        income: 0.5
-        experience: 0.5
-      135:
-        income: 0.5
-        experience: 0.5
-      136:
-        income: 0.5
-        experience: 0.5
-      163:
-        income: 0.5
-        experience: 0.5
-      164:
-        income: 0.5
-        experience: 0.5
-      54:
-        income: 0.5
-        experience: 0.5
-      85:
-        income: 0.25
-        experience: 0.25
-      188:
-        income: 0.25
-        experience: 0.25
-      189:
-        income: 0.25
-        experience: 0.25
-      190:
-        income: 0.25
-        experience: 0.25
-      191:
-        income: 0.25
-        experience: 0.25
-      192:
-        income: 0.25
-        experience: 0.25
-      324:
-        income: 0.25
-        experience: 0.25
-      427:
-        income: 0.25
-        experience: 0.25
-      428:
-        income: 0.25
-        experience: 0.25
-      429:
-        income: 0.25
-        experience: 0.25
-      430:
-        income: 0.25
-        experience: 0.25
-      431:
-        income: 0.25
-        experience: 0.25
   Adventurer:
     fullname: Adventurer
     shortname: A
-    description: Dig to survive!
+    description: Mine to survive!
     ChatColour: GREEN
     chat-display: full
     max-level: 75
@@ -260,10 +157,16 @@ Jobs:
       DIAMOND_LEGGINGS:
         income: 21.0
         experience: 21.0
+      442:
+        income: 1.5
+        experience: 1.5
     Smelt:
       IRON_INGOT:
         income: 2.0
         experience: 2.0
+      263-1:
+        income: 0.1
+        experience: 0.1
       GOLD_INGOT:
         income: 2.0
         experience: 2.0
@@ -331,6 +234,9 @@ Jobs:
       DIAMOND_LEGGINGS:
         income: 21.0
         experience: 21.0
+      442:
+        income: 1.5
+        experience: 1.5
   Farmer:
     fullname: Farmer
     shortname: Fa
@@ -400,10 +306,10 @@ Jobs:
     Craft:
       BOWL:
         income: 2.0
-        experience: 5.0
+        experience: 4.0
       MUSHROOM_SOUP:
         income: 3.5
-        experience: 8.0
+        experience: 6.0
       436:
         income: 4.0
         experience: 5.0
@@ -415,16 +321,19 @@ Jobs:
         experience: 2.0
       CAKE:
         income: 9.5
-        experience: 12.0
+        experience: 11.0
       COOKIE:
         income: 2.5
         experience: 2.5
       GOLDEN_APPLE:
         income: 10.5
         experience: 11.5
-      MELON_BLOCK:
+      170:
         income: 2.0
-        experience: 5.0
+        experience: 2.0
+      413:
+        income: 4.0
+        experience: 4.0
     Kill:
       Chicken:
         income: 3
@@ -452,6 +361,9 @@ Jobs:
       Wolf:
         income: 5.0
         experience: 5.0
+      Horse:
+        income: 2.5
+        experience: 2.5
   Fisherman:
     fullname: Fisherman
     shortname: Fi
@@ -583,6 +495,109 @@ Jobs:
       Wither:
         income: 15.0
         experience: 15.0
+  Lumberjack:
+    fullname: Lumberjack
+    shortname: L
+    description: Chop to survive!
+    ChatColour: DARK_RED
+    chat-display: full
+    max-level: 75
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Break:
+      17-0:
+        income: 2.5
+        experience: 2.5
+      17-1:
+        income: 2.5
+        experience: 2.5
+      17-2:
+        income: 2.5
+        experience: 2.5
+      17-3:
+        income: 2.5
+        experience: 2.5
+      162-0:
+        income: 2.5
+        experience: 2.5
+      162-1:
+        income: 2.5
+        experience: 2.5
+    Place:
+      SAPLING:
+        income: 0.5
+        experience: 0.5
+    Craft:
+      5:
+        income: 0.5
+        experience: 0.5
+      126:
+        income: 0.25
+        experience: 0.25
+      65:
+        income: 0.25
+        experience: 0.25
+      96:
+        income: 0.5
+        experience: 0.5
+      53:
+        income: 0.5
+        experience: 0.5
+      134:
+        income: 0.5
+        experience: 0.5
+      135:
+        income: 0.5
+        experience: 0.5
+      136:
+        income: 0.5
+        experience: 0.5
+      163:
+        income: 0.5
+        experience: 0.5
+      164:
+        income: 0.5
+        experience: 0.5
+      54:
+        income: 0.5
+        experience: 0.5
+      85:
+        income: 0.25
+        experience: 0.25
+      188:
+        income: 0.25
+        experience: 0.25
+      189:
+        income: 0.25
+        experience: 0.25
+      190:
+        income: 0.25
+        experience: 0.25
+      191:
+        income: 0.25
+        experience: 0.25
+      192:
+        income: 0.25
+        experience: 0.25
+      324:
+        income: 0.25
+        experience: 0.25
+      427:
+        income: 0.25
+        experience: 0.25
+      428:
+        income: 0.25
+        experience: 0.25
+      429:
+        income: 0.25
+        experience: 0.25
+      430:
+        income: 0.25
+        experience: 0.25
+      431:
+        income: 0.25
+        experience: 0.25
   Wizard:
     fullname: Wizard
     shortname: Wi
